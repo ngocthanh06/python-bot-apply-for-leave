@@ -26,11 +26,10 @@ work_sheet = open_service.worksheet("Concrete-sheet")
 #configuare logfile
 logging.basicConfig(filename=os.path.abspath('logs/app_slack.log'), level=logging.DEBUG)
 
-# Dictionary to store coffee orders. In the real world, you'd want an actual key-value store
+# Dictionary to form data. 
 FORM_DATA = {}
 
 now = datetime.datetime.now()
-# client_chat = client.chat_postMessage(channel = "C016ZUZ94DA", text = "Hello")
 
 """View submission"""
 @app.route('/view-submission', methods=['POST'])
