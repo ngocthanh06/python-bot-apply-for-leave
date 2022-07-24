@@ -49,8 +49,7 @@ def view_submission():
                 start_date_off = start_time_off = end_date_off = end_time_off = ''
 
                 if data.get('form_type'):
-                    FORM_DATA['form_type'] = (
-                        (data.get('form_type').get('selected_option'))).get('value')
+                    FORM_DATA['form_type'] = ((data.get('form_type').get('selected_option'))).get('value')
                 if (data.get('user_involved')):
                     FORM_DATA['user_involved'] = (data.get('user_involved')).get('selected_user')
                 if data.get('reason'):
