@@ -24,12 +24,22 @@ open_service = service_account.open(os.environ.get('GOOGLE_SHEET_NAME'))
 work_sheet = open_service.worksheet("Concrete-sheet")
 
 #configuare logfile
-logging.basicConfig(filename=os.path.abspath('logs/app_slack.log'), level=logging.DEBUG)
+logging.basicConfig(filename=os.path.abspath('app/logs/app_slack.log'), level=logging.DEBUG)
 
 # Dictionary to form data. 
 FORM_DATA = {}
 
 now = datetime.datetime.now()
+
+"""Get index"""
+@app.route('/', methods=["GET"])
+def index():
+    return '''<h1 style="color: #5e9ca0;">Wellcome!</h1> 
+            <h2 style="color: #2e6c80;">Bot test slack apply for leave:</h2>
+            <p><strong>Save this link into your bookmarks and share it with your friends. It is all FREE! </strong><br /><strong>Enjoy!</strong></p>
+            <p>&nbsp;</p>
+            <p><strong>&nbsp;</strong></p> 
+        '''
 
 """View submission"""
 @app.route('/view-submission', methods=['POST'])
