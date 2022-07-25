@@ -1,8 +1,8 @@
 
 # from .app import App
-# from .app_slack import AppSlack
+# from app_slack import app
 
 # __all__ = [
-    # "App",
-    # "App_slack"
+#     "app",
+#     # "App_slack"
 # ]
