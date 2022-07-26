@@ -24,3 +24,21 @@ flask run #default port: 5000
 pip install ngrok
 ngrok http 5000
 ```
+
+# Update key google clound in folder config
+
+#Deploy heroku
+
+```
+heroku ps:scale web=1
+python3 -m venv --upgrade-deps venv
+source venv/bin/activate #install package 
+# or
+pip freeze > requirements.txt
+```
+
+and push heroku
+```
+git commit -am 'comment'
+git push heroku master
+```
