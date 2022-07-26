@@ -62,4 +62,4 @@ webdriver-manager==3.3.0
 Werkzeug==2.1.2
 yarl==1.6.3
 zipp==3.8.1
-tensorflow==2.9.1
+tensorflow-cpu==2.9.1
