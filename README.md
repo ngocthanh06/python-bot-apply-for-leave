@@ -1,5 +1,7 @@
 # Bot Python
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://user-images.githubusercontent.com/33601978/180923775-92c87ce3-87fd-4a85-950c-bc0f478530d0.mov)
+
 ## Installation
 
 ```
