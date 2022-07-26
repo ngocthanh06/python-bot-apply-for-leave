@@ -1,8 +1,0 @@
-INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [25/Jul/2022 20:40:00] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [25/Jul/2022 20:40:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [26/Jul/2022 10:06:16] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [26/Jul/2022 10:06:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
