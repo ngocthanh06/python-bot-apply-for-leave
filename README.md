@@ -25,7 +25,7 @@ pip install ngrok
 ngrok http 5000
 ```
 
-# Update key google clound in folder config
+## Update key google clound in folder config
 
 #Deploy heroku
 
